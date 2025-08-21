@@ -1,6 +1,6 @@
 # Proyecto Técnico – Tratados Internacionales de Colombia
 
-Este proyecto es una prueba técnica cuyo objetivo es:
+Este proyecto es una prueba técnica cuyo objetivo es validar mi capacidad para extraer datos públicos, procesarlos, exponerlos mediante una API y construir un frontend sencillo, todo en un entorno local.
 
 1. **Extracción y Transformación de Datos**
    - Fuente: [Tratados Internacionales de Colombia](https://www.datos.gov.co/Estad-sticas-Nacionales/Tratados-internacionales-de-Colombia/fdir-hk5z).
