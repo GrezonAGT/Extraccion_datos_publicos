@@ -3,7 +3,7 @@
 Este proyecto es una prueba técnica cuyo objetivo es validar mi capacidad para extraer datos públicos, procesarlos, exponerlos mediante una API y construir un frontend sencillo, todo en un entorno local.
 
 1. **Extracción y Transformación de Datos**
-   - Fuente: [Tratados Internacionales de Colombia](https://www.datos.gov.co/Estad-sticas-Nacionales/Tratados-internacionales-de-Colombia/fdir-hk5z).
+   - Fuente: [Tratados Internacionales de Colombia](https://www.datos.gov.co/Estad-sticas-Nacionales/Tratados-internacionales-de-Colombia/fdir-hk5z/about_data).
    - Extracción mediante API SODA (datos.gov.co).
    - Normalización de campos clave (título, fecha, estado, país, enlace).
    - Almacenamiento en base de datos local (SQLite).
