@@ -38,8 +38,12 @@ def transformacion(Data):
     Devuelve una lista de diccionarios con los datos normalizados.
     """
     datos_normalizados = []
-
-    for i in range(len(Data)):
+    """
+    Se aclara que se especifica hasta 220 registros, ya que la API en algunos casos 
+    devuelve valores que requieren de una transformación especial por una mala carga de datos.
+    Vease el registro 224 como ejemplo de error de carga.
+    """
+    for i in range(220):
         if Data[i].get("fechaadopcion") is not None:
             try:
                 Data[i]["fechaadopcion"] = datetime.strptime(Data[i]["fechaadopcion"], "%d/%m/%Y").date()
@@ -87,7 +91,7 @@ def carga(Data):
                 vigente BOOLEAN)"""
         )
         conn.commit()
-        
+
         # Limpiar la tabla antes de insertar nuevos datos
         cursor.execute("TRUNCATE TABLE Tratados_internacionales RESTART IDENTITY;")
         conn.commit()
