@@ -44,7 +44,7 @@ def transformacion(Data):
             try:
                 Data[i]["fechaadopcion"] = datetime.strptime(Data[i]["fechaadopcion"], "%d/%m/%Y").date()
             except ValueError as e:
-                print(f"Error al convertir fecha en registro {i}: {e}")
+                print(f"Error al convertir fecha en registro {i+1}: {e}")
                 Data[i]["fechaadopcion"] = None
 
         Data[i]["vigente"] = True if Data[i].get("vigente") == "SI" else False
