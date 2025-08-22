@@ -70,11 +70,7 @@ def carga(Data):
     Los datos se subiran a una base de datos local del tipo postgresql.
     """
     # Conexión a la base de datos PostgreSQL
-    conn = psycopg2.connect(database = database_1, 
-                        user = user_1, 
-                        host= host_1,
-                        password = password_1,
-                        port = port_1)
+    conn = psycopg2.connect(database = database_1, user = user_1, host= host_1, password = password_1, port = port_1)
     cursor = conn.cursor()
 
     try:
