@@ -1,11 +1,8 @@
 from fastapi import FastAPI, HTTPException, Query
 import psycopg2
-from psycopg2 import sql
 from datetime import datetime
 from typing import Optional
 import uvicorn
-import pandas as pd
-import numpy as np
 
 #Creamos la instancia de FastAPI
 app = FastAPI(title="API de Proyectos de Investigación", version="1.0")
