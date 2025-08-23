@@ -19,6 +19,7 @@ La API publica utilizada se puede encontrar en: [https://www.datos.gov.co/resour
 Para terminar este proyecto se utilizo IA copilot para partes en especifico, en este caso:
 - Para la creacion del menu desplegable de los detalles completos
 - La implementacion de la barra de busqueda "SearchBar" para encontrar los registros por palabra clave.
+- Para la conversion de fechas de norma ISO 8601 a YYYY-MM-DD para mejor visualización.
 
 ## Imagenes proyecto finalizado
 
