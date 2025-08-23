@@ -1,4 +1,4 @@
-#Sobre el Frontend básico
+# Sobre el Frontend básico
 
 Este proyecto es una aplicación en **React** que consume datos de [datos.gov.co](https://www.datos.gov.co/) y muestra en una tabla los proyectos de investigación e innovación aprobados desde el año 2009. 
 
