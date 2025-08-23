@@ -17,9 +17,8 @@ La API publica utilizada se puede encontrar en: [https://www.datos.gov.co/resour
 
 ## Implementacion de IA
 Para terminar este proyecto se utilizo IA copilot para partes en especifico, en este caso:
-- Para la creacion del menu desplegable de los detalles completos
-- La implementacion de la barra de busqueda "SearchBar" para encontrar los registros por palabra clave.
-- Para la conversion de fechas de norma ISO 8601 a YYYY-MM-DD para mejor visualización.
+- Para realizar la opcion de tener las 2 caracteristicas para filtrar por fecha o por palabra clave y su implementacion en el Query requerido.
+- Para permitir a "http://localhost:3000" (frontend) acceder a la API localmente agregando una libreria y un metodo.
 
 ## Imagenes proyecto finalizado
 
