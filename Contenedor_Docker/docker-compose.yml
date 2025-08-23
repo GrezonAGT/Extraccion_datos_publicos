@@ -1,0 +1,47 @@
+services:
+  db:
+    image: postgres:17
+    container_name: postgres_container
+    restart: always
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: andresgarces
+      POSTGRES_DB: postgres
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+  api:
+    build: ./app
+    container_name: fastapi_container
+    restart: always
+    depends_on:
+      - db
+    environment:
+      DB_HOST: db
+      DB_PORT: 5432
+      DB_NAME: postgres
+      DB_USER: postgres
+      DB_PASS: andresgarces
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./app:/code
+
+  etl:
+    build: ./etl
+    container_name: etl_container
+    depends_on:
+      - db
+    environment:
+      DB_HOST: db
+      DB_PORT: 5432
+      DB_NAME: postgres
+      DB_USER: postgres
+      DB_PASS: andresgarces
+    command: ["python", "etl.py"]
+    restart: "no"
+
+volumes:
+  postgres_data:
