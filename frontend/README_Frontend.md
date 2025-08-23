@@ -7,7 +7,7 @@ Permite **buscar proyectos por palabra clave** y ver **detalles** al hacer click
 Antes de ejecutar instale lo siguiente si no lo tiene:
 
 - [Node.js](https://nodejs.org/) 
-- pip install react
+- npx create-react-app frontend  <- Creacion del proyecto
 - pip install npm
 
 ## Fuente de datos
