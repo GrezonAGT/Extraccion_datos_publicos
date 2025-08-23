@@ -1,6 +1,6 @@
 # Sobre el Frontend básico
 
-Este proyecto es una aplicación en **React** que consume datos de [datos.gov.co](https://www.datos.gov.co/) y muestra en una tabla los proyectos de investigación e innovación aprobados desde el año 2009. 
+Este proyecto es una aplicación en **React** que consume datos traidos localmente de [datos.gov.co](https://www.datos.gov.co/) y muestra en una tabla los proyectos de investigación e innovación aprobados desde el año 2009. 
 
 Permite **buscar proyectos por palabra clave** y ver **detalles** al hacer click en cada fila.
 
@@ -13,7 +13,7 @@ Antes de ejecutar instale lo siguiente si no lo tiene:
 - pip install npm
 
 ## Fuente de datos
-La API publica utilizada se puede encontrar en: [https://www.datos.gov.co/resource/6hgx-q9pi.json](https://www.datos.gov.co/resource/6hgx-q9pi.json) 
+La API Local utilizada esta en: http://127.0.0.1:8000/resources
 
 ## Implementacion de IA
 Para terminar este proyecto se utilizo IA copilot para partes en especifico, en este caso:
