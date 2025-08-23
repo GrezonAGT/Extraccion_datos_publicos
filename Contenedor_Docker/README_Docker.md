@@ -8,6 +8,11 @@ Si su sistema operativo es windows descague la carpeta completa de "Contenedor_D
 ## Linux & MAC
 Si su sistema operativo es Linux o MAC descargue la carpeta completa de "Contenedor_Docker" y ejecute el archivo "start.sh", una vez lo ejecute ya puede acceder a la API de manera local
 
+Asegurese de dar permisos de ejecución: 
+```
+chmod +x start.sh
+```
+
 ## Si NO puede ejecutar el start.bat realice lo siguiente
 Si de alguna manera no puede ejecutar el start.bat, descargue la carpeta "Contenedor_Docker", posicionese en ella y ejecute los siguientes comandos en el bash:
 docker compose build
