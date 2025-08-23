@@ -1,9 +1,12 @@
 # Proyecto Técnico – Tratados Internacionales de Colombia
 
-Este proyecto es una prueba técnica cuyo objetivo es validar mi capacidad para extraer datos públicos, procesarlos, exponerlos mediante una API y construir un frontend sencillo, todo en un entorno local.
+En este repositorio se encuentra cada uno de las partes de la prueba tecnica, llegando hasta el empaquetado en Docker, para su ejecucion recomiendo las siguientes recomendaciones
+
+- Descargar unicamente las carpetas "Contenedor_Docker" y "frontend", ya que en Contenedor_Docker se encuentran los procesos de etl y api integrados y el frontend hace uso de la API local que se genera con el contenedor
+- Para revision más a fondo, los codigos utilizados para el proceso ETL y la creacion de la API con Fastapi estan en este mismo repositorio en sus respectivas carpetas, los codigos funcionan de igualmanera localmente.
 
 1. **Extracción y Transformación de Datos**
-   - Fuente: [Tratados Internacionales de Colombia](https://dev.socrata.com/foundry/www.datos.gov.co/fdir-hk5z).
+   - Los datos utilizados se obtuvieron de la fuente: [Proyectos de Investigación e innovación](https://dev.socrata.com/foundry/www.datos.gov.co/fdir-hk5z).
    - Extracción mediante API SODA (datos.gov.co).
    - Normalización de campos clave.
    - Almacenamiento en base de datos local (PostgreSQL).
@@ -17,6 +20,6 @@ Este proyecto es una prueba técnica cuyo objetivo es validar mi capacidad para 
    - Visualización de detalles.
 
 4. **Opcional (Bonus)**
-   - Docker Compose para levantar API + DB.
+   - Docker Compose para levantar API + DB. 
 
 ---
