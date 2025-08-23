@@ -30,4 +30,8 @@ Para poder visualizar de mejor manera los filtros se recomienda iniciar en docs 
 - [http://localhost:8000/docs](http://localhost:8000/docs)
 
 ### Programa frontend
-El frontend fue desarrollado con React y hace la conexion con la API creada localmente
+El frontend fue desarrollado con React y hace la conexion con la API creada localmente, todo se dividio en componentes para poder realizar correciones de mejor forma, este proyecto inicia localmente en;
+```
+Local:            http://localhost:3000        
+On Your Network:  http://192.168.20.18:3000
+```
