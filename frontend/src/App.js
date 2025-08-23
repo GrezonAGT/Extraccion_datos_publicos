@@ -7,14 +7,15 @@ import Tabla from './components/Tabla';
 function App() {
 
   //Usamos useFetch creado por nosotros para obtener la infomacion de la API
-  const { data } = useFetch("https://www.datos.gov.co/resource/6hgx-q9pi.json?$limit=2000");
+  const { data } = useFetch("http://127.0.0.1:8000/resources");
   const [expandedRow, setExpandedRow] = useState(null);
   const [searchTerm, setSearchTerm] = useState("");
 
   const toggleRow = (index) => {
     setExpandedRow(expandedRow === index ? null : index);
   };
-  // Filtrar los proyectos según búsqueda (por título o ciudad, por ejemplo)
+
+  // Filtrar los proyectos según búsqueda por título
   const filteredData = data?.filter((user) =>
     user.titulo_proyecto?.toLowerCase().includes(searchTerm.toLowerCase()) 
   );
