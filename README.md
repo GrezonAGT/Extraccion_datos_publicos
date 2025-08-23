@@ -30,4 +30,4 @@ Para poder visualizar de mejor manera los filtros se recomienda iniciar en docs 
 - [http://localhost:8000/docs](http://localhost:8000/docs)
 
 ### Programa frontend
-El
+El frontend fue desarrollado con React y hace la conexion con la API creada localmente
