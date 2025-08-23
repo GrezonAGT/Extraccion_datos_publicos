@@ -54,6 +54,6 @@ On Your Network:  http://192.168.20.18:3000
 #### Con su filtro de fecha y palabra clave en el titulo:
 <img width="1920" height="1039" alt="image" src="https://github.com/user-attachments/assets/fae59528-5785-40b2-88ab-6a2117fc7d56" />
 
-Dentro de cada carpeta de cada codigo se encuentra un README con las especificaciones del codigo en cuestion donde se detallan un poco mas. 
+Dentro de cada carpeta de cada codigo se encuentra un README con las especificaciones del codigo en cuestion donde se detallan un poco mas. \\
 Muchas Gracias
 Autor: Andres Garces.
