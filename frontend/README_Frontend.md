@@ -20,5 +20,15 @@ Para terminar este proyecto se utilizo IA copilot para partes en especifico, en 
 - Para la creacion del menu desplegable de los detalles completos
 - La implementacion de la barra de busqueda "SearchBar" para encontrar los registros por palabra clave.
 
+## Imagenes proyecto finalizado
+
+<img width="1920" height="1040" alt="image" src="https://github.com/user-attachments/assets/1cab695d-543d-4284-8d47-2578398ca3dd" />
+
+### Uso de barra de busqueda
+<img width="1920" height="1039" alt="image" src="https://github.com/user-attachments/assets/9bd7278f-5229-4bd2-84fd-eb53ac5070de" />
+
+### Despliegue de detalles
+<img width="1920" height="1038" alt="image" src="https://github.com/user-attachments/assets/4e7d9a6a-ab0d-4ce5-aad5-9a4656ea4ec9" />
+
 ## Conclusion
 Este proyecto fue una experiencia muy enriquecedora. Aunque ya había utilizado React previamente para construir frontends, en esta ocasión pude reforzar de manera práctica muchos conceptos de programación en JavaScript con React. Además, aprendí a manejar de forma más sólida la conexión y consumo de datos desde APIs, lo cual me permitió comprender mejor el flujo de información entre el frontend y los servicios externos.
