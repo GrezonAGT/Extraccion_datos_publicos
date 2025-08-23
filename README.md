@@ -1,4 +1,4 @@
-# Proyecto Técnico – Tratados Internacionales de Colombia
+# Proyecto Técnico – Proyectos de Investigación e innovación
 
 En este repositorio se encuentra cada uno de las partes de la prueba tecnica, llegando hasta el empaquetado en Docker, para su ejecucion recomiendo las siguientes recomendaciones
 
