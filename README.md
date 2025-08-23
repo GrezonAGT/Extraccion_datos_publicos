@@ -35,3 +35,21 @@ El frontend fue desarrollado con React y hace la conexion con la API creada loca
 Local:            http://localhost:3000        
 On Your Network:  http://192.168.20.18:3000
 ```
+### Imagenes de la APP corriendo:
+#### Todos los registros:
+<img width="1920" height="1037" alt="image" src="https://github.com/user-attachments/assets/67c1231a-21fd-40b7-86d9-38d31bbc7c2f" />
+
+#### Filtrados por nombre:
+<img width="1920" height="1038" alt="image" src="https://github.com/user-attachments/assets/77c49ae9-5faf-4bc1-bd98-8a751740b654" />
+
+#### Detalles de un registro:
+<img width="1920" height="1039" alt="image" src="https://github.com/user-attachments/assets/cf9f85d8-bcf9-431c-bce9-9c7198e3d708" />
+
+### Imagenes de la API corriendo:
+<img width="1920" height="1040" alt="image" src="https://github.com/user-attachments/assets/2653aa75-dd90-4cc4-b46d-3a34a4851945" />
+
+#### Con su filtro id: 
+<img width="1920" height="1039" alt="image" src="https://github.com/user-attachments/assets/95a2bfe4-8025-4398-9f87-9bc1b7ec7c89" />
+
+#### Con su filtro de fecha y palabra clave en el titulo:
+<img width="1920" height="1039" alt="image" src="https://github.com/user-attachments/assets/fae59528-5785-40b2-88ab-6a2117fc7d56" />
