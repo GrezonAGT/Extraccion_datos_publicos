@@ -2,6 +2,7 @@ from fastapi import FastAPI, HTTPException, Query
 import psycopg2
 from datetime import datetime
 from typing import Optional
+from fastapi.middleware.cors import CORSMiddleware
 import uvicorn
 
 #Creamos la instancia de FastAPI
@@ -107,3 +108,11 @@ def filtrar(fecha: Optional[str] = Query(None, description="Fecha en formato YYY
         if conn:
             cursor.close()
             conn.close()
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],  # o ["http://localhost:3000"]
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
