@@ -10,8 +10,7 @@ export function useFetch(url) {
         // Formatear fechas al estilo YYYY-MM-DD
         const formattedData = data.map(item => ({
           ...item,
-          fecha_registro: item.fecha_registro?.split("T")[0],
-          fecha_aprobacion: item.fecha_aprobacion?.split("T")[0],
+          fecha_registro: item.fecha_registro?.split("T")[0]
         }));
         setData(formattedData);
       });
