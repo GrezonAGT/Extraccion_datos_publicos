@@ -2,7 +2,7 @@
 
 En este repositorio se encuentra cada una de las partes de la prueba técnica, llegando hasta el empaquetado en Docker, para su ejecución recomiendo las siguientes recomendaciones
 
-- Descargar únicamente las carpetas "Contenedor_Docker" y "frontend", ya que en Contenedor_Docker se encuentran los procesos de etl y api integrados y el frontend hace uso de la API local que se genera con el contenedor
+- Descargar únicamente las carpetas "Contenedor_Docker" y "frontend", ya que en Contenedor_Docker se encuentran los procesos de etl y api integrados y el frontend hace uso de la API local que se genera con el contenedor, recuerde que debe tener docker en su sistema.
 - Para revisión más a fondo, los códigos utilizados para el proceso ETL y la creación de la API con Fastapi están en este mismo repositorio en sus respectivas carpetas, los códigos funcionan de igual manera localmente.
 
 ## Instrucciones de ejecución paso a paso para ejecución rápida
